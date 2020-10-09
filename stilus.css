@@ -1,0 +1,68 @@
+/*navigacios sav
+*{
+border: 1px blue ;
+}
+body{
+margin: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+}
+ul li {
+   text-align: center;
+    margin: 5px;
+  
+   
+}
+ul li a{
+    display: block;
+    padding: 5px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+} 
+a{
+    text-decoration: none;
+}
+a:hover:not(.active){
+    background-color: tomato;
+}
+.active{
+    background-color: teal;
+}*/
+/* *{
+    border: 1xp blue;
+} */
+body{
+margin: 0px;
+}
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: chartreuse;
+    overflow: hidden;
+    }
+
+ul li{
+   text-align: center;
+}
+
+    ul li a{
+    float: left;
+    display: block;
+    padding: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+a:hover:not(.active){
+    background-color: tomato;
+}
+.active{
+    background-color: teal;
+}
